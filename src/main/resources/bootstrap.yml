@@ -4,7 +4,7 @@ spring:
       default
   cloud:
     config:
-      #uri: http://config-service:8888
+      uri: http://nestros.com:8888
       enabled: true
       name: eureka-service
   application:
