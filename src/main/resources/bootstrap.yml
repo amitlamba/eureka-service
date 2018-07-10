@@ -9,3 +9,6 @@ spring:
       name: eureka-service
   application:
     name: eureka-service
+
+encrypt:
+  key: ${ENCRYPT_KEY}
